@@ -794,7 +794,7 @@ function Sheets(options) { // eslint-disable-line
             method: 'PUT'
           }, options),
           params: params,
-          requiredParams: ['spreadsheetId', 'range'],
+          requiredParams: ['spreadsheetId', 'range', 'valueInputOption'],
           pathParams: ['spreadsheetId', 'range'],
           context: self
         };
